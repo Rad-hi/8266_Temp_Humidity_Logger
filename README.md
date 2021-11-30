@@ -25,3 +25,5 @@ Then (assuming you have/made a profile on Adafruit.io) **two options arise**:
 ***1)** You only need somewhere to store your data*: Then you're done! You can create the ***feed(s)*** (topic) if you want, but Adafruit.io will create any non-existent topic once your node tries to connect to it.
 
 ***2)** You need to visualize the data*: In this case, the ***feed(s)*** must exist before you can create the dashboard that would visualize the data (like the one shown in the demo).
+
+***The file under scripts*** is presented as a demo on how to fecth the data programmatically anywhere the internet is accessible. This way, even if a PC isn't in the same network as the node, it could still acess the data and do whatever action required.
